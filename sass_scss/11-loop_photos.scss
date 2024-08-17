@@ -3,7 +3,6 @@
 @import '11-loop_photos';
 
 /* All names will be listed */
-$list-names: julien, john, sam, damain;
 
 @each $name in $list-names {
     .photo-#{$name} {
