@@ -1,9 +1,13 @@
-/* Nested hover */
-$col_button: #ff0000;
-$col_but_hover: #00ff00;
+/*
+Assign Text color #FF0000 to button tags
+When the user hovers over button tags, text color should change to #00FF00
+*/
+$button-color: #FF0000;
+$button-hover-color: #00FF00;
+
 button {
-  color: $col_button;
-  &:hover {
-    color: $col_but_hover;
-  }
+    color: $button-color;
+    &:hover {
+        color: $button-hover-color;
+    }
 }
