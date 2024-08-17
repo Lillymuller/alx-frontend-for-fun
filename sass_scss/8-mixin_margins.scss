@@ -1,3 +1,5 @@
+/* Margin mixin */
+
 @mixin margins($left, $right) {
     margin-left: $left;
     margin-right: $right;
