@@ -1,13 +1,10 @@
 /* Adding text and hover coloer for the button*/
-
-@mixin button-styles {
+%button-base {
   color: #FF0000;
-
+}
+button {
+  @extend %button-base;
   &:hover {
     color: #00FF00;
   }
-}
-
-button {
-  @include button-styles;
 }
