@@ -1,10 +1,11 @@
-/* Adding text and hover coloer for the button*/
-%button-base {
-  color: #FF0000;
-}
+/* Adding text and hover color for the button*/
+
+$default-color: #FF0000;
+$hover-color: #00FF00;
+
 button {
-  @extend %button-base;
+  color: $default-color;
   &:hover {
-    color: #00FF00;
+    color: $hover-color;
   }
 }
